@@ -7,7 +7,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "7076164009:AAHx-pMK8tGnPbhBHtr0ci6Fs-tPehInWd8")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "TMR_File_Store_Bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002180083054"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002168837018"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', 'Ziplinker.net')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API', '8e869e3bd0f04a3dd1282d4e0a7bb52224a3a576')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6987799874"))
