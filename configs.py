@@ -11,7 +11,7 @@ class Config(object):
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', 'Ziplinker.net')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API', '8e869e3bd0f04a3dd1282d4e0a7bb52224a3a576')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6987799874"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tabolo8539:0evqZDV4fC5fD17c@cluster0.cw8zxus.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001868502293")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002012824372")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
